@@ -2,65 +2,423 @@
 "a" = (
 /turf/open/space/basic,
 /area/space)
-"d" = (
-/turf/open/misc/grass,
-/area/space)
-"j" = (
-/obj/machinery/door/airlock/hatch,
+"b" = (
+/obj/machinery/door/airlock/hatch{
+	name = "counter"
+	},
 /turf/open/floor/stone,
 /area/space)
+"c" = (
+/obj/structure/rack,
+/obj/item/fishing_rod{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/fishing_rod{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/fishing_rod{
+	pixel_x = 12
+	},
+/turf/open/floor/wood,
+/area/space)
+"d" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/condiment/soymilk,
+/obj/item/reagent_containers/condiment/soymilk{
+	pixel_x = -9
+	},
+/obj/item/reagent_containers/condiment/soymilk{
+	pixel_x = 9
+	},
+/turf/open/floor/wood,
+/area/space)
+"e" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone,
+/area/space)
+"f" = (
+/obj/structure/rack,
+/obj/item/fishing_hook,
+/obj/item/fishing_hook{
+	pixel_x = -8
+	},
+/obj/item/fishing_hook{
+	pixel_y = -1;
+	pixel_x = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"g" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/right{
+	dir = 1
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_carp,
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	pixel_y = 5
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_shadyjims{
+	pixel_x = 9
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	pixel_y = 5;
+	pixel_x = 9
+	},
+/obj/item/storage/box/matches{
+	pixel_y = -3;
+	pixel_x = -7
+	},
+/obj/item/storage/box/matches{
+	pixel_y = 2;
+	pixel_x = -7
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"h" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/wood,
+/area/space)
+"i" = (
+/obj/machinery/door/airlock/hatch{
+	name = "shopkeeps home"
+	},
+/turf/open/floor/wood,
+/area/space)
+"j" = (
+/turf/open/floor/wood/large,
+/area/space)
+"k" = (
+/obj/machinery/door/airlock/hatch{
+	name = "corner shop"
+	},
+/turf/open/floor/wood/large,
+/area/space)
 "l" = (
-/obj/structure/railing/corner{
+/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/stone,
 /area/space)
+"m" = (
+/obj/structure/chair/wood{
+	pixel_y = 19;
+	dir = 1;
+	pixel_x = 2
+	},
+/obj/structure/sink/kitchen/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/space)
 "n" = (
 /turf/closed/indestructible/riveted,
 /area/space)
+"o" = (
+/obj/structure/rack,
+/turf/open/floor/wood,
+/area/space)
 "p" = (
 /turf/open/floor/stone,
+/area/space)
+"q" = (
+/obj/item/assembly/mousetrap{
+	pixel_y = 7;
+	pixel_x = 8
+	},
+/obj/item/food/deadmouse{
+	pixel_y = 12;
+	pixel_x = 6
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"r" = (
+/obj/structure/curtain/cloth,
+/turf/open/floor/wood/parquet,
+/area/space)
+"s" = (
+/obj/structure/table/wood,
+/obj/item/plate,
+/obj/item/food/cakeslice/apple,
+/turf/open/floor/wood/parquet,
+/area/space)
+"t" = (
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -4;
+	pixel_x = -12
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -4;
+	pixel_x = 12
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -4;
+	pixel_x = 4
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -4;
+	pixel_x = -4
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -2;
+	pixel_x = 8
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -2
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = -2;
+	pixel_x = -8
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = 1;
+	pixel_x = -4
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = 1;
+	pixel_x = 5
+	},
+/obj/item/stack/sheet/mineral/wood{
+	pixel_y = 4;
+	pixel_x = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "u" = (
 /obj/structure/stairs/south,
 /turf/open/space/basic,
 /area/space)
-"x" = (
+"v" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood/large,
+/area/space)
+"w" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/space)
+"x" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/stone,
+/area/space)
 "y" = (
-/turf/open/floor/plating/abductor2,
+/obj/structure/rack,
+/obj/item/fishing_line/reinforced,
+/obj/item/fishing_line/reinforced{
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/obj/item/fishing_line/reinforced{
+	pixel_y = 9;
+	pixel_x = -4
+	},
+/turf/open/floor/wood,
 /area/space)
 "z" = (
 /turf/closed/indestructible/fakeglass,
 /area/space)
 "A" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	dir = 1
+	},
+/obj/item/food/pie/appletart{
+	pixel_y = 1;
+	pixel_x = -6
+	},
+/obj/item/food/pie/cherrypie{
+	pixel_y = 9
+	},
+/obj/item/food/pie/plain{
+	pixel_y = 1;
+	pixel_x = 10
+	},
 /turf/open/floor/wood/large,
 /area/space)
 "B" = (
 /turf/open/openspace,
 /area/space)
 "C" = (
-/turf/closed/wall/mineral/iron,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/large,
+/area/space)
+"D" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"E" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood/large,
 /area/space)
 "F" = (
-/turf/open/floor/plastic,
+/obj/structure/closet/crate/freezer{
+	name = "ice chest"
+	},
+/obj/item/food/meat/rawcutlet{
+	pixel_y = -5;
+	pixel_x = -5
+	},
+/obj/item/food/meat/slab{
+	pixel_y = 1;
+	pixel_x = -4
+	},
+/obj/item/food/meat/slab{
+	pixel_y = -6;
+	pixel_x = 4
+	},
+/obj/item/food/meat/slab/mouse{
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "G" = (
-/obj/structure/railing,
-/turf/open/floor/stone,
+/turf/closed/wall/mineral/iron,
+/area/space)
+"H" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/condiment/milk,
+/obj/item/reagent_containers/condiment/milk{
+	pixel_x = -9
+	},
+/obj/item/reagent_containers/condiment/milk{
+	pixel_x = 9
+	},
+/obj/machinery/light/small/broken/directional/east,
+/turf/open/floor/wood,
+/area/space)
+"I" = (
+/obj/structure/chair/wood{
+	pixel_y = 6;
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/space)
+"J" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood/parquet,
+/area/space)
+"K" = (
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/tea{
+	pixel_y = -6;
+	pixel_x = -2
+	},
+/obj/item/food/grown/redbeet,
+/obj/item/food/grown/redbeet{
+	pixel_y = 2;
+	pixel_x = -5
+	},
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"L" = (
+/obj/item/assembly/mousetrap/armed{
+	pixel_y = -2;
+	pixel_x = 8
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"M" = (
+/obj/structure/rack,
+/obj/item/clothing/head/soft/fishing_hat,
+/turf/open/floor/wood,
 /area/space)
 "N" = (
 /turf/open/floor/plating,
 /area/space)
-"W" = (
-/obj/structure/railing{
+"O" = (
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/tomato,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/tea{
+	pixel_y = -6;
+	pixel_x = -5
+	},
+/obj/item/food/grown/redbeet,
+/obj/item/food/grown/redbeet{
+	pixel_x = 5
+	},
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/turf/open/floor/wood,
+/area/space)
+"P" = (
+/obj/structure/bed/maint,
+/obj/item/bedsheet,
+/turf/open/floor/wood/parquet,
+/area/space)
+"Q" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/space)
+"R" = (
+/turf/closed/wall,
+/area/space)
+"S" = (
+/obj/structure/railing,
+/turf/open/floor/stone,
+/area/space)
+"T" = (
+/obj/item/reagent_containers/cup/bowl{
+	name = "bedpan";
+	pixel_y = 10;
+	pixel_x = -3
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/gun/ballistic/shotgun{
+	pixel_y = -5
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"U" = (
+/obj/item/assembly/mousetrap/armed{
+	pixel_y = -8;
+	pixel_x = -6
+	},
+/turf/open/floor/wood/parquet,
+/area/space)
+"V" = (
+/obj/structure/railing/corner{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
+/area/space)
+"W" = (
+/turf/open/misc/grass,
 /area/space)
 "X" = (
 /turf/cordon,
+/area/space)
+"Y" = (
+/obj/structure/table/reinforced,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/item/stack/spacecash/c100,
+/obj/item/stack/spacecash/c100{
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"Z" = (
+/obj/structure/chair/wood{
+	pixel_y = -2
+	},
+/turf/open/floor/wood/parquet,
 /area/space)
 
 (1,1,1) = {"
@@ -103511,26 +103869,26 @@ X
 X
 X
 X
-C
-C
-C
-C
-C
+G
+D
+D
+D
+G
 X
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
 X
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
 X
 a
 a
@@ -103765,29 +104123,29 @@ p
 p
 p
 X
-C
-A
-C
-C
-F
-F
-F
-C
-p
-C
-p
-p
-p
-p
-C
-p
-C
+G
+k
+G
+G
+c
+y
+f
+G
+e
+G
 p
 p
 p
 p
+G
+e
+G
 p
-C
+p
+p
+p
+p
+G
 X
 a
 X
@@ -104022,29 +104380,29 @@ p
 p
 p
 X
+D
 C
-A
-A
-A
-A
-A
-A
-C
+Q
+v
+j
+Q
+j
+G
 p
-C
-p
+G
 p
 p
-C
-C
 p
-C
-p
+G
+G
+e
+G
 p
 p
 p
 p
-C
+p
+G
 X
 a
 a
@@ -104279,29 +104637,29 @@ p
 p
 p
 X
-C
-A
-F
-F
-A
-F
-A
-C
+D
+j
+O
+K
+Q
+M
+Q
+G
 p
-C
+G
+R
+R
+G
+G
+e
 p
-p
-C
-C
-p
-p
-C
-p
-p
+G
 p
 p
 p
-C
+p
+p
+G
 X
 a
 a
@@ -104535,30 +104893,30 @@ p
 p
 p
 p
-C
-C
-A
-A
-A
-A
-C
+G
+G
+Q
 j
-C
-p
-C
-p
-p
-C
-p
-p
-C
-C
+Q
+j
+G
+b
+G
+e
+G
 p
 p
+G
+p
+e
+G
+G
+R
+R
 p
 p
 p
-C
+G
 X
 a
 a
@@ -104792,30 +105150,30 @@ p
 p
 p
 p
-C
+G
+j
+Q
+t
+o
+j
 A
-A
-F
-F
-A
-y
-x
-C
+w
+G
 p
-C
+G
 p
 p
-C
+G
 p
-C
-C
+G
+G
+p
+p
+R
 p
 p
 p
-p
-p
-p
-C
+G
 X
 a
 a
@@ -105049,30 +105407,30 @@ p
 p
 p
 p
-C
-A
-A
-A
-A
-A
-y
-x
-C
-p
-C
-C
-C
-C
-p
-C
-p
-p
+G
+E
+j
+Q
+j
+Q
+g
+h
+G
+e
+G
+G
+G
+G
+e
+G
 p
 p
 p
+R
 p
 p
-C
+p
+G
 X
 a
 a
@@ -105306,30 +105664,30 @@ p
 p
 p
 p
-C
-A
+G
+Q
 F
-F
-F
-A
-y
-x
-C
+d
+H
+Q
+Y
+w
+G
 p
 p
+e
+p
+e
+e
+G
 p
 p
+G
+G
+G
+G
 p
-p
-C
-p
-p
-C
-C
-C
-C
-p
-C
+G
 X
 a
 a
@@ -105563,30 +105921,30 @@ p
 p
 p
 p
-C
-C
-C
-C
-C
-C
-C
-x
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+i
+G
+G
+G
+e
+G
+G
+G
+G
+G
+G
+G
 p
-C
-C
-C
-C
-C
-C
-C
 p
-p
-C
-C
-C
+G
+G
+G
 X
 a
 a
@@ -105820,30 +106178,30 @@ p
 p
 p
 p
-C
+G
 p
 p
 p
 p
-C
-x
-x
-x
-x
-C
+G
+q
+U
+I
+L
+G
 p
-C
-p
-p
+G
 p
 p
 p
-p
+R
 p
 p
 p
 p
-C
+p
+p
+G
 X
 a
 a
@@ -106077,30 +106435,30 @@ p
 p
 p
 p
-C
+G
 p
 p
 p
 p
-C
-x
-x
-x
-x
-C
-p
-C
-p
-p
+G
+J
+Z
+s
+m
+G
+e
+G
 p
 p
 p
-p
+R
 p
 p
 p
 p
-C
+p
+p
+G
 X
 a
 a
@@ -106334,30 +106692,30 @@ p
 p
 p
 p
-C
+G
 p
 p
 p
 p
-C
-x
-x
-C
-C
-C
+G
+r
+r
+G
+G
+G
 p
-C
-p
-p
+G
 p
 p
 p
-p
+R
 p
 p
 p
 p
-C
+p
+p
+G
 X
 a
 a
@@ -106591,30 +106949,30 @@ p
 p
 p
 p
-C
+G
+R
+R
+R
+R
+G
+P
+T
+G
+e
+p
+e
+G
+p
+p
+p
+R
 p
 p
 p
 p
-C
-x
-x
-C
 p
 p
-p
-C
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-C
+G
 X
 a
 a
@@ -106848,30 +107206,30 @@ p
 p
 p
 p
-C
+G
 p
 p
 p
 p
-C
-C
-C
-C
+G
+G
+G
+G
 p
-C
-C
-C
+G
+G
+G
+R
+R
+R
+R
 p
-p
-p
-p
-p
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
 X
 a
 a
@@ -107105,30 +107463,30 @@ p
 p
 p
 p
-C
-p
-p
-p
-p
-p
-p
-p
-C
-p
-C
-p
-p
-p
-p
-p
-C
-C
-C
 G
-d
-d
-d
-C
+p
+p
+p
+p
+R
+p
+p
+G
+e
+G
+p
+p
+p
+p
+p
+G
+G
+G
+S
+W
+W
+W
+G
 X
 a
 a
@@ -107362,30 +107720,30 @@ p
 p
 p
 p
-C
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
+G
 p
-C
-p
-p
+G
 p
 p
 p
-C
 p
 p
+G
+e
+p
+V
 l
-W
-W
-W
-C
+x
+l
+G
 X
 a
 a
@@ -107620,29 +107978,29 @@ p
 p
 p
 X
+e
+p
+e
 p
 p
 p
+e
 p
+e
+G
+G
+G
+G
+G
+G
+G
 p
+G
+G
+G
 p
-p
-p
-p
-C
-C
-C
-C
-C
-C
-C
-p
-C
-C
-C
-p
-p
-C
+e
+G
 X
 a
 a
@@ -107877,29 +108235,29 @@ p
 p
 p
 X
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
 p
 p
+e
+e
+e
+e
+e
 p
+e
+G
 p
-p
-p
-p
-p
-p
-C
-p
-C
-C
-C
-C
+G
+G
+G
+G
 X
 a
 a
@@ -108134,29 +108492,29 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
 p
 p
 p
-C
-C
-C
+G
+G
+G
 p
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+R
+G
 p
-C
 p
-p
-C
+G
 X
 a
 a
@@ -108391,7 +108749,7 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
@@ -108400,20 +108758,20 @@ p
 p
 p
 p
-C
-p
-C
-p
-p
+G
+e
+G
 p
 p
 p
 p
+R
 p
-C
+p
+G
 p
 p
-C
+G
 X
 a
 a
@@ -108648,29 +109006,29 @@ p
 p
 p
 X
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
 p
-C
-p
-p
+G
 p
 p
 p
 p
-C
-C
-p
-p
-C
+R
+R
+G
+G
+R
+R
+G
 X
 a
 a
@@ -108905,29 +109263,29 @@ p
 p
 p
 X
-C
+G
+p
+e
+e
+p
+e
+p
+p
+G
+p
+e
+G
 p
 p
 p
 p
+R
+p
+G
 p
 p
 p
-C
-p
-p
-C
-p
-p
-p
-p
-p
-C
-C
-p
-p
-p
-C
+G
 X
 a
 a
@@ -109162,29 +109520,29 @@ p
 p
 p
 X
+e
 p
+G
+G
+G
+G
+G
 p
-C
-C
-C
-C
-C
+e
 p
-p
-p
-C
-C
-p
-p
-p
-p
-C
-C
+G
+G
 p
 p
 p
 p
-C
+G
+G
+G
+p
+p
+p
+G
 X
 a
 a
@@ -109419,29 +109777,29 @@ p
 p
 p
 X
-C
-C
-C
+G
+G
+G
 p
 p
 p
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+p
+R
 p
 p
 p
-p
-p
-C
+G
 X
 a
 a
@@ -109676,29 +110034,29 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
 p
 p
+R
 p
 p
 p
 p
 p
+R
+p
+p
+G
+p
+p
+R
 p
 p
 p
-p
-C
-p
-p
-p
-p
-p
-p
-C
+G
 X
 a
 a
@@ -109933,29 +110291,29 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
 p
 p
+R
 p
 p
 p
 p
 p
+R
+p
+p
+G
+p
+p
+R
 p
 p
 p
-p
-C
-p
-p
-p
-p
-p
-p
-C
+G
 X
 a
 a
@@ -110190,29 +110548,29 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
 p
 p
+R
 p
 p
 p
 p
+R
+R
+p
+p
+G
+p
+p
+R
 p
 p
 p
-p
-p
-C
-p
-p
-p
-p
-p
-p
-C
+G
 X
 a
 a
@@ -110447,29 +110805,29 @@ p
 p
 p
 X
-C
+G
 p
 p
 p
 p
 p
+R
 p
 p
 p
 p
+R
 p
 p
 p
-p
-p
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
 X
 a
 a
@@ -110704,22 +111062,22 @@ p
 p
 p
 X
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
-C
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
 X
 X
 X
